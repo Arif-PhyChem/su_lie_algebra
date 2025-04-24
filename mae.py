@@ -41,18 +41,18 @@ def calculate_mae(time_pred, rho_pred, ref_rho, diag_indices, offdiag_indices):
     offdiag_mae /= (len(time_pred) * len(offdiag_indices))
     return np.mean(diag_mae), offdiag_mae
 
-# File paths and labels
+# File names and labels
 sb_density_files = [
-    ('sb_model/pred_data/pred_sb_asym_normal.npz', 'PUNN'),
-    ('sb_model/pred_data/nc_pred_sb_asym_coeff.npz', '$\mathfrak{su}$(n)-PUNN'),
-    ('sb_model/pred_data/pred_sb_asym_pinn.npz', 'PINN'),
-    ('sb_model/pred_data/fc_pred_sb_asym_coeff.npz', '$\mathfrak{su}$(n)-PINN')
+    ('sb_model/pred_data/asym_dynamics_PUNN.npz', 'PUNN'),
+    ('sb_model/pred_data/asym_dynamics_su2-PUNN.npz', '$\mathfrak{su}$(n)-PUNN'),
+    ('sb_model/pred_data/asym_dynamics_PINN.npz', 'PINN'),
+    ('sb_model/pred_data/asym_dynamics_su2-PINN.npz', '$\mathfrak{su}$(n)-PINN')
 ]
 fmo_density_files = [
-    ('fmo_model/pred_data/pred_fmo_7_1_normal.npz', 'PUNN'),
-    ('fmo_model/pred_data/nc_pred_fmo_7_1_coeff.npz', '$\mathfrak{su}$(n)-PUNN'),
-    ('fmo_model/pred_data/pred_fmo_7_1_pinn.npz', 'PINN'),
-    ('fmo_model/pred_data/fc_pred_fmo_7_1_coeff.npz', '$\mathfrak{su}$(n)-PINN')
+    ('fmo_complex/pred_data/dynamics_fmo_7_1_PUNN.npz', 'PUNN'),
+    ('fmo_complex/pred_data/dynamics_fmo_7_1_su7-PUNN.npz', '$\mathfrak{su}$(n)-PUNN'),
+    ('fmo_complex/pred_data/dynamics_fmo_7_1_PINN.npz', 'PINN'),
+    ('fmo_complex/pred_data/dynamics_fmo_7_1_su7-PINN.npz', '$\mathfrak{su}$(n)-PINN')
 ]
 
 # Reference data

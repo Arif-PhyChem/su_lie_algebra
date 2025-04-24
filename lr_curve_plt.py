@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 
 # Define file paths
 sb_loss_files = [
-    ('sb_model/pred_data/normal_loss_history_no_constraint.csv', 'sb_model/pred_data/coeff_loss_history_no_constraint.csv'),
-    ('sb_model/pred_data/pinn_loss_history_full_constraints.csv', 'sb_model/pred_data/coeff_loss_history_full_constraints.csv')
+    ('sb_model/pred_data/PUNN_loss_history.csv', 'sb_model/pred_data/su2-PUNN_loss_history.csv'),
+    ('sb_model/pred_data/PINN_loss_history.csv', 'sb_model/pred_data/su2-PINN_loss_history.csv')
 ]
 fmo_loss_files = [
-    ('fmo_model/pred_data/normal_loss_history_no_constraint.csv', 'fmo_model/pred_data/coeff_loss_history_no_constraint.csv'),
-    ('fmo_model/pred_data/pinn_loss_history_full_constraints.csv', 'fmo_model/pred_data/coeff_loss_history_full_constraints.csv')
+    ('fmo_complex/pred_data/PUNN_loss_history.csv', 'fmo_complex/pred_data/su7-PUNN_loss_history.csv'),
+    ('fmo_complex/pred_data/PINN_loss_history.csv', 'fmo_complex/pred_data/su7-PINN_loss_history.csv')
 ]
 
 # Create a figure for subplots

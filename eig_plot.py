@@ -3,18 +3,18 @@ import matplotlib.pyplot as plt
 
 # SB model files and labels
 sb_files = [
-        ('sb_model/pred_data/eig_pred_sb_asym_normal.npz', 'SB: PUNN'),
-        ('sb_model/pred_data/eig_nc_pred_sb_asym_coeff.npz', 'SB: $\mathfrak{su}$(n)-PUNN'),
-        ('sb_model/pred_data/eig_pred_sb_asym_pinn.npz', 'SB: PINN'),
-        ('sb_model/pred_data/eig_fc_pred_sb_asym_coeff.npz', 'SB: $\mathfrak{su}$(n)-PINN')
+        ('sb_model/pred_data/asym_eig_PUNN.npz', 'SB: PUNN'),
+        ('sb_model/pred_data/asym_eig_su2-PUNN.npz', 'SB: $\mathfrak{su}$(n)-PUNN'),
+        ('sb_model/pred_data/asym_eig_PINN.npz', 'SB: PINN'),
+        ('sb_model/pred_data/asym_eig_su2-PINN.npz', 'SB: $\mathfrak{su}$(n)-PINN')
 ]
 
 # FMO complex files and labels
 fmo_files = [
-        ('fmo_model/pred_data/eig_pred_fmo_7_1_normal.npz', 'FMO: PUNN'),
-        ('fmo_model/pred_data/eig_nc_pred_fmo_7_1_coeff.npz', 'FMO: $\mathfrak{su}$(n)-PUNN'),
-        ('fmo_model/pred_data/eig_pred_fmo_7_1_pinn.npz', 'FMO: PINN'),
-        ('fmo_model/pred_data/eig_fc_pred_fmo_7_1_coeff.npz', 'FMO: $\mathfrak{su}$(n)-PINN')
+        ('fmo_complex/pred_data/eig_fmo_7_1_PUNN.npz', 'FMO: PUNN'),
+        ('fmo_complex/pred_data/eig_fmo_7_1_su7-PUNN.npz', 'FMO: $\mathfrak{su}$(n)-PUNN'),
+        ('fmo_complex/pred_data/eig_7_1_PINN.npz', 'FMO: PINN'),
+        ('fmo_complex/pred_data/eig_fmo_7_1_su7-PINN.npz', 'FMO: $\mathfrak{su}$(n)-PINN')
 ]
 
 # Create a figure for the 3x2 layout
