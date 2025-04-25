@@ -1,4 +1,4 @@
-# sb_folder
+# FMO_complex
 
 This folder contains a collection of files and trained models for SB model
 
@@ -41,7 +41,7 @@ This folder contains a collection of files and trained models for SB model
 
 We used the following models with comparable training and validation loss (The 1st number shows epoch, 2nd number shows training loss (tloss) and the 3rd number shows  validation loss (vloss)):
 
-1. **PUNN_cnn_lstm_model-284-tloss-1.544e-05-vloss-2.320e-05**
-2. **su2-PUNN_cnn_lstm_model-464-tloss-1.152e-05-vloss-3.191e-05**
-3. **PINN_cnn_lstm_model-990-tloss-1.611e-05-vloss-2.381e-05**
-4. **su2-PINN_cnn_lstm_model-359-tloss-1.382e-05-vloss-3.464e-05**
+1. **PUNN_model-91-tloss-1.095e-05-vloss-1.245e-05**
+2. **su7-PUNN_model-157-tloss-1.008e-05-vloss-2.274e-05**
+3. **PINN_model-1063-tloss-1.077e-05-vloss-1.292e-05**
+4. **su7-PINN_model-142-tloss-1.059e-05-vloss-1.944e-05**
