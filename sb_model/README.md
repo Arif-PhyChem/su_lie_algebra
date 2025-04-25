@@ -1,4 +1,4 @@
-# sb_folder
+# sb_model
 
 This folder contains a collection of files and trained models for SB model
 
